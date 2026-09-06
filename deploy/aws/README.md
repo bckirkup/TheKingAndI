@@ -60,6 +60,13 @@ Successful JSON and log artifacts are uploaded under
 `campaigns/<run-id>/census/`; array child 0 also uploads
 `campaigns/<run-id>/manifest.json`.
 
+The image uses a generic dispatcher entrypoint. It defaults to
+`spot-entrypoint.sh`, preserving the campaign local-run examples below.
+Seminar and census job definitions select their worker with an environment
+override such as
+`environment: [{name: KINGSANDI_ENTRYPOINT, value: census-entrypoint.sh}]`
+and an empty command.
+
 ## S3 layout
 
 The entrypoint uses these keys:

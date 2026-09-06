@@ -27,12 +27,14 @@ COPY tsconfig.json ./
 COPY deploy/aws/entrypoint.sh /usr/local/bin/spot-entrypoint.sh
 COPY deploy/aws/entrypoint-seminar.sh /usr/local/bin/seminar-entrypoint.sh
 COPY deploy/aws/entrypoint-census.sh /usr/local/bin/census-entrypoint.sh
+COPY deploy/aws/dispatch-entrypoint.sh /usr/local/bin/dispatch-entrypoint.sh
 
 RUN ln -s /usr/local/aws-cli/v2/2.30.3 /usr/local/aws-cli/v2/current \
   && ln -s /usr/local/aws-cli/v2/current/bin/aws /usr/local/bin/aws \
   && chmod 755 /usr/local/bin/spot-entrypoint.sh \
   && chmod 755 /usr/local/bin/seminar-entrypoint.sh \
   && chmod 755 /usr/local/bin/census-entrypoint.sh \
+  && chmod 755 /usr/local/bin/dispatch-entrypoint.sh \
   && test ! -e /app/node_modules/stockfish \
   && if find /app/node_modules -iname '*stockfish*' -print -quit | grep -q .; then \
        echo 'Stockfish artifact found in the Lozza-only image.' >&2; \
@@ -44,4 +46,4 @@ RUN ln -s /usr/local/aws-cli/v2/2.30.3 /usr/local/aws-cli/v2/current \
 
 USER node
 WORKDIR /work
-ENTRYPOINT ["/usr/local/bin/spot-entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/dispatch-entrypoint.sh"]
