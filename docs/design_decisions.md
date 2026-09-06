@@ -2513,7 +2513,13 @@ the wounded side does not lower it. The field lifts into state only while
 `PRIDE_REFUSAL_SCALE ≠ 0` (default 0), so payloads are unchanged. Open:
 vindication, promotion, commendation conduct, sustained overrides,
 passed-over obsolescence, the hinge into bitterness and spite, and the scale
-magnitude (a play change owed the exploit-tier re-run).
+magnitude (a play change owed the exploit-tier re-run). **Measured
+2026-09-06** (`docs/calibration/2026-09-06-the-carriers-that-could-not-fire.md`):
+the carrier is live and play-sensitive through 1–4 proud pieces per style,
+non-monotone at one seed, and **saturated at scale ≥ 50** (50/100/250 share
+one `playDigest`; positive appraisals on this pool run 125–253‰, so scale
+250 is a +30..+60 pawn threshold). Stays 0 pending a second seed, a fine grid
+inside `1..40`, and the exploit-tier rerun.
 
 ### D216 ✅ Panic: can a room break by freezing instead of leaving? (ADR 0078)
 **Partly wired (recognition), terminal-only at `PANIC_ROSTER_FLOOR = 4`.**
@@ -2527,7 +2533,11 @@ fold is enabled; the seminar fold is recognition-only. **Carrier wired inert
 it scales effective search depth only, after grief, with no verdict
 reclassification or quiet-quit count (the double-charge guard). Both knobs
 default 0. Open: contagion topology (v1 is uniform across the side), UI
-dramatization, and the magnitudes, owed the exploit-tier re-run.
+dramatization, and the magnitudes, owed the exploit-tier re-run. **Measured
+2026-09-06:** a structural zero on the campaign harness — no onset at floor 4
+in either room; forced (floor 2, total collapse) the kind room panics but no
+verdict flips, and the cruel room never keeps four frightened pieces long
+enough to panic. See the Phase C calibration note.
 
 ### D217 ✅ Relief, awe, loneliness: located together, deferred together (ADR 0078)
 **Partly wired (recognition), terminal-only at ruled defaults.** Terminal
@@ -2545,6 +2555,13 @@ every same-side witness's affinity toward a `HEROISM_NOMINATION` hero by
 desertion decision from the match's departed peers and the surviving roster,
 lowers the D145 stay weight by `LONELINESS_STAY_PENALTY_PERMILLE`. All knobs
 default 0; magnitudes are owed a sweep and the exploit-tier re-run.
+**Measured 2026-09-06** (Phase C calibration note): all three are structural
+zeros on the campaign harness — awe has no heroism under the fake engine;
+loneliness fires only in the kind room, which does not desert even at stay
+weight 0; relief fires only in the kind room, whose trust never sits below
+the D207 baseline, so the lift has no recipient (it becomes live and pays
+the cruel room at baseline 100, which is D207's question, not a Phase C
+knob).
 
 ### D218 ✅ Is the ADR 0061 step-7 gate passed, and for which surfaces? (ADR 0079)
 **Answered 2026-09-04 (owner): the ADR 0079 proposal is accepted.** The gate
