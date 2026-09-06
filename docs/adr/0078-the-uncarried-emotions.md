@@ -550,3 +550,26 @@ sweep plus the ADR 0075 exploit-tier re-run before any knob defaults on.
   Unlike grace, this term is leader-reachable — a leader can march a piece
   into danger and out again — so when priced it is an ADR 0075 gaming target
   and must be measured against the exploiters before it defaults on.
+
+## Addendum — 2026-09-06: Phase C measured, every knob stays 0
+
+Measurement in
+`docs/calibration/2026-09-06-the-carriers-that-could-not-fire.md`. No default
+changes.
+
+- **Pride → refusal threshold (D215): live, saturated early.** Seminar grid
+  `PRIDE_REFUSAL_SCALE ∈ {0, 10, 50, 100, 250}`, seed 41, Phase A shape. Three
+  distinct plays: 0, 10, and one run shared by 50/100/250. Positive
+  appraisals on this pool are 125–253‰ against a `−3..+3` pawn base
+  threshold, so the graded region is roughly `1..40` and 250 means "a proud
+  piece never refuses". One to four proud pieces per style move every
+  outcome column, non-monotone at one seed. Stays 0; pricing needs a second
+  seed, a fine grid inside `1..40`, then the ADR 0075 exploit rerun.
+- **Panic, loneliness, awe, relief (D216/D217): structural zeros on the
+  campaign harness**, each for a stated reason — no heroism under the fake
+  engine; no cruel-room onset at floor 4 and no flipped verdict when forced;
+  bonds only in the room that never deserts; relief recipients only in the
+  room that is never relieved (below the D207 baseline). Each knob stays 0
+  as a measured zero. Relief becomes live and pays the cruel room if
+  `MORNING_LIFT_TRUST_BASELINE` were 100 — that is D207's question and is not
+  taken here.
