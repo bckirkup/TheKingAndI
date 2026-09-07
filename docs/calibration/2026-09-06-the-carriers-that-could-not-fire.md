@@ -1,6 +1,8 @@
 # The Carriers That Could Not Fire — Pricing the Phase C Live Carriers
 
-Date: 2026-09-06 (UTC). Status: measurement evidence for the ADR 0078 Phase C
+Date: 2026-09-06 (UTC).
+**Superseded in part:** the saturation edge is 10 < edge ≤ 20, see the 2026-09-08 note.
+Status: measurement evidence for the ADR 0078 Phase C
 carrier magnitudes (D215 pride → refusal threshold, D216 panic → engagement
 collapse, D217 loneliness → stay term, awe → affinity, relief → morning
 lift). Nothing in this document changes a default. Read
