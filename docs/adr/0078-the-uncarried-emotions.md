@@ -573,3 +573,14 @@ changes.
   as a measured zero. Relief becomes live and pays the cruel room if
   `MORNING_LIFT_TRUST_BASELINE` were 100 — that is D207's question and is not
   taken here.
+
+## Addendum — 2026-09-08: the pride fine grid, two seeds, still 0
+
+Measurement in
+`docs/calibration/2026-09-08-the-fine-grid-and-the-three-settings.md`. No
+default changes.
+
+The second seed and fine grid put the saturation edge at `10 < edge ≤ 20`,
+superseding ≈40; the sign is not seed-stable, so `PRIDE_REFUSAL_SCALE` stays
+0. The exploit rerun is not owed until a value is proposed. Reopen when ransom
+settles, runs are longer, or a Lozza census is available.

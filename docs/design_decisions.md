@@ -2520,6 +2520,10 @@ non-monotone at one seed, and **saturated at scale ≥ 50** (50/100/250 share
 one `playDigest`; positive appraisals on this pool run 125–253‰, so scale
 250 is a +30..+60 pawn threshold). Stays 0 pending a second seed, a fine grid
 inside `1..40`, and the exploit-tier rerun.
+The second seed and fine-grid run on 2026-09-08 put the saturation edge at
+`10 < edge ≤ 20`, superseding ≈40; the sign is not seed-stable, so it stays 0;
+the exploit rerun is not owed until a value is proposed; reopen when ransom
+settles, runs are longer, or a Lozza census is available.
 
 ### D216 ✅ Panic: can a room break by freezing instead of leaving? (ADR 0078)
 **Partly wired (recognition), terminal-only at `PANIC_ROSTER_FLOOR = 4`.**
